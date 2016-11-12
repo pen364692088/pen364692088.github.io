@@ -1,0 +1,127 @@
+*{margin:0;
+  padding:0;
+}
+.slide{
+	width:100%;
+	height:100%;
+}
+.line{
+	width:25%;
+	height:3px;
+    position:absolute;
+    top:85px;
+	background-color: #006e63;
+}
+.pic img{
+	position:absolute;
+	width:800px;
+	height:600px;
+	box-shadow: 0px 2px 8px #111;
+	border:10px solid white;
+	box-sizing:border-box;
+	transition:transform 0.7s ease-in-out;
+
+}
+.back{position:absolute;
+	width:100%;
+	height:100%;
+	display:none;
+	background-color: rgba(0,0,0,0.7);
+	z-index:17;
+}
+.back p{
+	position:absolute;
+	left:85%;
+	top:10%;
+	color:#fff;
+	font-size: 40px;
+}
+.back img{
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+	border:10px solid white;
+	box-shadow: 0px 0px 10px #000;
+	box-sizing:border-box;
+	transform:scale(1.25);
+}
+.back_1{
+	position:absolute;
+	width:25%;
+	height:100%;
+	top:87px;
+	background-image:url("../images/back/1.jpg") ;
+	background-size:cover;
+	z-index: 1;
+}
+.back_2,.back_3,.back_4{
+	
+	position:absolute;
+	width:25%;
+	height:100%;
+	top:0; 
+	/* -webkit-filter: blur(5px);  */
+
+
+}
+.back_2{
+	background-image:url("../images/back/2.jpg");
+	background-size:cover;
+}
+.back_3{
+	background-image:url("../images/back/3.jpg");
+	background-size:cover;	
+}
+.back_4{
+	background-image:url("../images/back/4.jpg");
+	background-size:cover;	
+}
+.pic li{
+	list-style: none;
+}
+.pic{position:relative;
+	left:30%;
+	top:87px;
+	width:800px;
+	height:600px;
+	background-color: rgba(255,255,255,0);
+
+}
+.A img{ transform-origin:center 300%;
+	transform:rotate(-6deg);
+	z-index:8;
+	
+}
+.B img{transform-origin:center  300%;
+	transform:rotate(-2deg);
+	z-index:7;
+}
+.C img{transform-origin:center  300%;
+	transform:rotate(2deg);
+	z-index:6;
+}
+.D img{transform-origin:center  300%;
+	transform:rotate(6deg);
+	z-index:5;
+}
+.A img:hover{
+	transform:translate(5px);
+	transform:rotate(-15deg);
+	
+}
+.B img:hover{
+	transform:translate(-3px);
+	transform:rotate(6deg);
+	
+}
+.C img:hover{
+	transform:translate(-5px);
+	transform:rotate(12deg);
+	
+}
+.D img:hover{
+	transform:translate(-12px);
+	transform:rotate(20deg);
+	
+}
