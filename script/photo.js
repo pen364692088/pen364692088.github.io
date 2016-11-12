@@ -1,3 +1,13 @@
+window.onload=function(){
+var getWH =function(){
+var width = window.innerWidth || document.body.clientWidth;
+var height = window.innerHeight || document.body.clientHeight;
+if (width<=1440||height<=960){
+	$(".back img").css({transform:"scale(1)"});
+}
+}
+getWH();
+
 $(".pic img").mouseenter(function(){
 	$("this").css({transition:"translate 1s ease-in-out "});
 })
@@ -25,4 +35,4 @@ $(".back p").click(function(){
 	
 })
 
-    
+}    
