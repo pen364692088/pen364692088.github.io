@@ -8,11 +8,10 @@ if (width<=1440||height<=960){
 }
 getWH();
 
-document.onreadystatechange = function () {      
-               if(document.readyState=="complete") {            
-                   $("#onload").css({display:"none"});;      
-               }     
-           }      
+window.onload=function(){
+	$("#onload").css({display:"none"});
+}
+}    
 $(document).ready(function(){
 $(".pic img").mouseenter(function(){
 	$("this").css({transition:"translate 1s ease-in-out "});
