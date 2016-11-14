@@ -1,3 +1,10 @@
+function light(){
+    $("#logo_light img").stop().css({left:"0%"}).animate({
+        "left":"550px",
+
+    },1400);
+    };
+    setInterval(light,2000);
 $(document).ready(function(){
 $("#onload").css({display:"none"});
 $("#logo img").mouseenter(function(){
@@ -7,13 +14,8 @@ $("#logo img").mouseenter(function(){
     var src=$(this).attr("src");
     $(this).attr("src","images/logo.png");
     })
-function light(){
-    $("#logo_light img").stop().css({left:"0%"}).animate({
-        "left":"550px",
 
-    },1400);
-    };
-setInterval(light,2000);
+
 $(".ysunav li ").mouseenter(function(){
     $(this).children("img").hide();
     $(this).children("img").css({visibility:"visible"})        
