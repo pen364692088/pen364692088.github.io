@@ -2,6 +2,6 @@
 
 window.onload=function(){
 
-	$("#onload").css({display:"none"});
+	$("#onload").css({display:"none"});s
 
 }
