@@ -7,16 +7,11 @@ if (width<=1440||height<=960){
 }
 }
 getWH();
-document.onreadystatechange = completeLoading;
-function completeLoading() {
-            if (document.readyState == "complete") {
-                $("#onload").remove();
-            }
-        }
-/*window.onload=function(){
+
+window.onload=function(){
 	$("#onload").remove();
 }
-} */   
+}   
 window.onload=function(){
 $(".pic img").mouseenter(function(){
 	$("this").css({transition:"translate 1s ease-in-out "});

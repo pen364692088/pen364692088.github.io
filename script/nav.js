@@ -5,15 +5,9 @@ function light(){
     },1400);
     };
     setInterval(light,2000);
-/*window.onload=function(){
-    $("#onload").css({display:"none"});
-}   */ 
-document.onreadystatechange = completeLoading;
-function completeLoading() {
-            if (document.readyState == "complete") {
-                $("#onload").remove();
-            }
-        }
+window.onload=function(){
+    $("#onload").remove();
+}   
 $(document).ready(function(){
 $("#logo img").mouseenter(function(){
     var src=$(this).attr("src");
