@@ -7,9 +7,14 @@ if (width<=1440||height<=960){
 }
 }
 getWH();
-
+document.onreadystatechange = completeLoading;
+function completeLoading() {
+            if (document.readyState == "complete") {
+                $("#onload").remove();
+            }
+        }
 window.onload=function(){
-	$("#onload").css({display:"none"});
+	$("#onload").remove();
 }
 }    
 $(document).ready(function(){
