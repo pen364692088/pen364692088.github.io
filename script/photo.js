@@ -13,11 +13,11 @@ function completeLoading() {
                 $("#onload").remove();
             }
         }
-window.onload=function(){
+/*window.onload=function(){
 	$("#onload").remove();
 }
-}    
-$(document).ready(function(){
+} */   
+window.onload=function(){
 $(".pic img").mouseenter(function(){
 	$("this").css({transition:"translate 1s ease-in-out "});
 })
@@ -45,4 +45,4 @@ $(".back p").click(function(){
 	
 })
 
-})  
+}  
