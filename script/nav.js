@@ -1,4 +1,5 @@
 $(document).ready(function(){
+$("#onload").css({display:"none"});
 $("#logo img").mouseenter(function(){
     var src=$(this).attr("src");
     $(this).attr("src","images/logo_2.png");
