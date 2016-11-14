@@ -7,9 +7,12 @@ if (width<=1440||height<=960){
 }
 }
 getWH();
-window.onload=function(){
-	$("#onload").css({display:"none"});
-}
+
+document.onreadystatechange = function () {      
+               if(document.readyState=="complete") {            
+                   $("#onload").css({display:"none"});;      
+               }     
+           }      
 $(document).ready(function(){
 $(".pic img").mouseenter(function(){
 	$("this").css({transition:"translate 1s ease-in-out "});
