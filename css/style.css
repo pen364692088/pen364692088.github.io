@@ -6,11 +6,12 @@
   font-style: normal;
 }
 html, body {
-  background: #fff;
+  background: #fff ;
+  
 }
 
 body {
-  font-family: "Roboto", arial, sans-serif;
+  font-family: "微软雅黑" ,"Microsoft Yahei";
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
@@ -90,7 +91,7 @@ a:hover, a:focus, a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", times, serif;
+  font-family: "微软雅黑" ,"Microsoft Yahei", times, serif;
   color: #000;
   margin-bottom: 1.5em;
   clear: both;
@@ -103,7 +104,7 @@ p {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Playfair Display", times, serif;
+  font-family: "微软雅黑" ,"Microsoft Yahei", times, serif;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -279,7 +280,7 @@ p {
   visibility: hidden;
   font-size: 26px;
   top: 2px;
-  font-family: "Playfair Display", times, serif;
+  font-family: "微软雅黑" ,"Microsoft Yahei", times, serif;
 }
 #fh5co-logo > a:hover i {
   opacity: 0;
@@ -420,7 +421,7 @@ p {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: "Roboto", arial, sans-serif;
+  font-family: "微软雅黑" ,"Microsoft Yahei", arial, sans-serif;
   font-size: 30px;
 }
 @media screen and (max-width: 768px) {
